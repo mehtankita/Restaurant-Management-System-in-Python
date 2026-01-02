@@ -1,0 +1,44 @@
+{
+    "sweeti": {
+        "id": "324f7",
+        "email": "sweeti@202",
+        "contact": "200000000",
+        "password": "10001",
+        "role": "staff"
+    },
+    "babita": {
+        "id": "d381a",
+        "email": "baita",
+        "contact": "1919191919",
+        "password": "3333333333",
+        "role": "staff"
+    },
+    "nisha": {
+        "id": "b7e24",
+        "email": "nisha@1001",
+        "contact": "7830303021",
+        "password": "9990",
+        "role": "staff"
+    },
+    "kumkum": {
+        "id": "dedb9",
+        "email": "kumkum@222",
+        "contact": "2222222222",
+        "password": "99111",
+        "role": "staff"
+    },
+    "ankita": {
+        "id": "be5e6",
+        "email": "ankita@gmail.com",
+        "contact": "7773888390",
+        "password": "12001",
+        "role": "admin1i"
+    },
+    "shpna": {
+        "id": "61b0f",
+        "email": "shapna@1212",
+        "contact": "1111111111",
+        "password": "1002",
+        "role": "staff"
+    }
+}
