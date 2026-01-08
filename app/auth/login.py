@@ -2,17 +2,15 @@ import getpass
 from app.menu.allmenu import Menu
 
 class Login:
-
-    def login_user(self, all_data):
+    @staticmethod
+    def login_user(all_data):
         print("======== LOGIN MENU ========")
 
         email = input("Enter email: ")
         password = getpass.getpass("Enter password: ")
 
         menu = Menu() 
-
-        for username, item in all_data.items():
-
+        for item in all_data:
             if item["email"] == email:
 
                 if item["password"] == password:

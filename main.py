@@ -1,5 +1,6 @@
 
-from app.auth.authentication import AuthSystem
+from app.domain.main_function import Dashboard
 
-ob =AuthSystem()
-ob.run()
+Dashboard.run()
+
+

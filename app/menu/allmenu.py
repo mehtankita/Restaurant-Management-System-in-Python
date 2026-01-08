@@ -1,12 +1,12 @@
 class Menu:
-    
-    def main_menu(self):
+    @staticmethod
+    def main_menu():
          print("\n=== MAIN MENU ===")
          print("1. Login")
          print("2. Signup")
          print("3. Exit")
-    
-    def admin_menu(self):
+    @staticmethod
+    def admin_menu():
         print("========Admin Dashbord========")
         print("1. manage menu")
         print("2.manage staff")
@@ -16,10 +16,9 @@ class Menu:
         print("6.back")
         choice=input("plese enter your choice")
         return choice
-
-
-    def staff_menu(self):
-        while true:
+    @staticmethod
+    def staff_menu():
+        while True:
             print("==========staff deshboard==========")
             print("1.take orders")
             print("2.view orders")
