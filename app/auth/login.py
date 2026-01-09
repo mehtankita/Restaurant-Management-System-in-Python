@@ -1,9 +1,12 @@
 import getpass
 from app.menu.allmenu import Menu
+from app.domain.read_write import Read_Write
+from app.menu.show_menu import Menu_show
 
 class Login:
     @staticmethod
-    def login_user(all_data):
+    def login_user():
+        all_data= Read_Write.load_users()
         print("======== LOGIN MENU ========")
 
         email = input("Enter email: ")
@@ -17,11 +20,22 @@ class Login:
                     print("Login successful")
 
                     if item["role"] == "admin":
-                        menu.admin_menu()
+                        while True:
+                            choice=Menu.admin_menu()
+                            if choice=="1":
+                                Menu_show.show_menu_restaurant()
+                            elif choice=="7":
+                                print("Logout Successfull.")
+                                break
 
                     elif item["role"] == "staff":
-                        menu.staff_menu()
-
+                        while True:
+                            choice=Menu.staff_menu()
+                            if choice=="1":
+                                Menu_show.show_menu_restaurant()
+                            elif choice=="7":
+                                print("Logout Successfull.")
+                                break    
                     else:
                         print("User dashboard")
 

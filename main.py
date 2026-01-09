@@ -1,6 +1,6 @@
 
-from app.domain.main_function import Dashboard
+from app.domain.main_function import MainFunction
 
-Dashboard.run()
+MainFunction.run()
 
 

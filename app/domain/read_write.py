@@ -9,9 +9,17 @@ class Read_Write:
             with open(Path.file, "r") as f:
                 return json.load(f) 
         except:
-            return []  
+            return {}
 
     @staticmethod
-    def save_users(users):
+    def load_menu():
+        try:
+            with open(Path.food, "r") as f:
+                return json.load(f) 
+        except:
+            return {}
+
+    @staticmethod
+    def save_users(data):
         with open(Path.file, "w") as f:
-            json.dump(users, f, indent=4)
+            json.dump(data, f, indent=4)

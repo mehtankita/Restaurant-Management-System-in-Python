@@ -1,9 +1,8 @@
 from app.menu.allmenu import Menu
 from app.auth.authentication import AuthSystem
-from app.domain.read_write import Read_Write
 from app.auth.login import Login
 
-class Dashboard:
+class MainFunction:
     @staticmethod
     def run():
         while True:
@@ -11,15 +10,11 @@ class Dashboard:
             choice = input("Choose: ")
 
             if choice == "1":
-                users = Read_Write.load_users()
-                Login.login_user(users)
-
+                Login.login_user()
             elif choice == "2":
-                ob=AuthSystem()
-                ob.signup()
-
+                AuthSystem.signup()
             elif choice == "3":
-                print("Thank you, exiting...")
+                print("Bye")
                 break
             else:
-                print("Wrong choice")
+                print("Invalid option")
