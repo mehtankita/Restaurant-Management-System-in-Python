@@ -1,43 +1,45 @@
 class Menu:
+    
     @staticmethod
     def main_menu():
-         print("\n=== MAIN MENU ===")
-         print("1. Login")
-         print("2. Signup")
-         print("3. Exit")
+        print("\n=== MAIN MENU ===")
+        print("1. Login")
+        print("2. Signup")
+        print("3. Exit")
+
     @staticmethod
     def admin_menu():
-        print("========Admin Dashbord========")
-        print("1. view menu")
-        print("2. manage menu")
-        print("3.manage staff")
-        print("4.manage orders")
-        print("5.manage tables")
-        print("6.view reports")
-        print("7.logout")
-        choice=input("plese enter your choice")
+        print("\n======== ADMIN DASHBOARD ========")
+        print("1. View Menu")
+        print("2. Manage Menu")
+        print("3. Manage Staff")
+        print("4. Manage Orders")
+        print("5. Manage Tables")
+        print("6. View Reports")
+        print("7. Logout")
+        choice = input("Please enter your choice: ")
         return choice
+
+    @staticmethod
+    def manage_menu():
+        print("\n------ MANAGE MENU ------")
+        print("1. View Menu") 
+        print("2. Add new Item")
+        print("3. Delete Menu Item")
+        print("4. Update Menu Item")
+        print("5. Exit")
+        choice = input("Please enter your choice: ")
+        return choice
+
     @staticmethod
     def staff_menu():
-        while True:
-            print("==========staff deshboard==========")
-            print("1. view menu")
-            print("2.take orders")
-            print("3.view orders")
-            print("4.update order status")
-            print("5.generate bill")
-            print("6.table booking")
-            print("7. logout")
-            choice=input("plese enter your choice")
-            return choice
-
-
-
-
-
-
-
-        
-            
-
-                    
+        print("\n========== STAFF DASHBOARD ==========")
+        print("1. View Menu")
+        print("2. Take Orders")
+        print("3. View Orders")
+        print("4. Update Order Status")
+        print("5. Generate Bill")
+        print("6. Table Booking")
+        print("7. Logout")
+        choice = input("Please enter your choice: ")
+        return choice

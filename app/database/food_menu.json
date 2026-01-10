@@ -35,17 +35,17 @@
         { "name": "Veg Biryani", "type": "Veg", "half_price": 120, "full_price": 180 }
     ],
     "Beverages": [
-        { "name": "Masala Tea", "type": "Veg", "half_price": 20, "full_price": 30 },
-        { "name": "Cold Coffee", "type": "Veg", "half_price": 60, "full_price": 90 },
-        { "name": "Cappuccino", "type": "Veg", "half_price": 70, "full_price": 110 },
-        { "name": "Lassi", "type": "Veg", "half_price": 50, "full_price": 80 },
-        { "name": "Fresh Lime Soda", "type": "Veg", "half_price": 40, "full_price": 70 }
+        { "name": "Masala Tea", "type": "-", "half_price": 20, "full_price": 30 },
+        { "name": "Cold Coffee", "type": "-", "half_price": 60, "full_price": 90 },
+        { "name": "Cappuccino", "type": "-", "half_price": 70, "full_price": 110 },
+        { "name": "Lassi", "type": "-", "half_price": 50, "full_price": 80 },
+        { "name": "Fresh Lime Soda", "type": "-", "half_price": 40, "full_price": 70 }
     ],
     "Dessert": [
-        { "name": "Vanilla Ice Cream", "type": "Veg", "half_price": 40, "full_price": 60 },
-        { "name": "Chocolate Ice Cream", "type": "Veg", "half_price": 55, "full_price": 80 },
-        { "name": "Gulab Jamun", "type": "Veg", "half_price": 45, "full_price": 70 },
-        { "name": "Brownie", "type": "Veg", "half_price": 80, "full_price": 120 },
-        { "name": "Fruit Salad", "type": "Veg", "half_price": 60, "full_price": 90 }
+        { "name": "Vanilla Ice Cream", "type": "-", "half_price": 40, "full_price": 60 },
+        { "name": "Chocolate Ice Cream", "type": "-", "half_price": 55, "full_price": 80 },
+        { "name": "Gulab Jamun", "type": "-", "half_price": 45, "full_price": 70 },
+        { "name": "Brownie", "type": "-", "half_price": 80, "full_price": 120 },
+        { "name": "Fruit Salad", "type": "-", "half_price": 60, "full_price": 90 }
     ]
 }

@@ -38,5 +38,13 @@
         "contact": "9123456567",
         "password": "10001",
         "role": "admin"
+    },
+    {
+        "id": "0d35e",
+        "name": "jyoti",
+        "email": "jyoti32@gmail.com",
+        "contact": 2222222222,
+        "password": "2003",
+        "role": "staff"
     }
 ]

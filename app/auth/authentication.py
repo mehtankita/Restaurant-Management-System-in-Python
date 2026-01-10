@@ -1,5 +1,6 @@
 import uuid
 from app.domain.read_write import Read_Write
+from app.validation.check import Validation
 
 class AuthSystem:
 
@@ -9,7 +10,7 @@ class AuthSystem:
 
         name = input("Enter username: ")
         email = input("Enter email: ")
-        contact = input("Enter contact number: ")
+        contact = Validation.contact()
         password = input("Enter password: ")
 
         user = {

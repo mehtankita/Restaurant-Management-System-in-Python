@@ -23,3 +23,8 @@ class Read_Write:
     def save_users(data):
         with open(Path.file, "w") as f:
             json.dump(data, f, indent=4)
+
+    @staticmethod
+    def save_menu(menu):
+        with open(Read_Write.menu_file, "w") as f:
+            json.dump(menu, f, indent=4)        

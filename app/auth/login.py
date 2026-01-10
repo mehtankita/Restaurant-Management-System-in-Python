@@ -2,6 +2,7 @@ import getpass
 from app.menu.allmenu import Menu
 from app.domain.read_write import Read_Write
 from app.menu.show_menu import Menu_show
+from app.menu.allmenu import Menu
 
 class Login:
     @staticmethod
@@ -24,9 +25,13 @@ class Login:
                             choice=Menu.admin_menu()
                             if choice=="1":
                                 Menu_show.show_menu_restaurant()
+                            elif choice=="2":
+                                Menu.manage_menu()
                             elif choice=="7":
-                                print("Logout Successfull.")
+                                print("Logout Successfull")
                                 break
+                            else:
+                                print("Invalid Choice.")
 
                     elif item["role"] == "staff":
                         while True:
@@ -34,7 +39,7 @@ class Login:
                             if choice=="1":
                                 Menu_show.show_menu_restaurant()
                             elif choice=="7":
-                                print("Logout Successfull.")
+                                print("Logout Successfull")
                                 break    
                     else:
                         print("User dashboard")
