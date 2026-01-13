@@ -8,7 +8,7 @@ class MainFunction:
         while True:
             Menu.main_menu()
             choice = input("Choose: ")
-
+            
             if choice == "1":
                 Login.login_user()
             elif choice == "2":

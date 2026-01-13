@@ -3,6 +3,7 @@ from app.menu.allmenu import Menu
 from app.domain.read_write import Read_Write
 from app.menu.show_menu import Menu_show
 from app.menu.allmenu import Menu
+from app.domain.manage_menu import MenuManage
 
 class Login:
     @staticmethod
@@ -26,8 +27,8 @@ class Login:
                             if choice=="1":
                                 Menu_show.show_menu_restaurant()
                             elif choice=="2":
-                                Menu.manage_menu()
-                            elif choice=="7":
+                                MenuManage.add_item()
+                            elif choice=="6":
                                 print("Logout Successfull")
                                 break
                             else:

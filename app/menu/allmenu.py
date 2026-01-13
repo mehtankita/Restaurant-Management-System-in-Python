@@ -13,10 +13,9 @@ class Menu:
         print("1. View Menu")
         print("2. Manage Menu")
         print("3. Manage Staff")
-        print("4. Manage Orders")
-        print("5. Manage Tables")
-        print("6. View Reports")
-        print("7. Logout")
+        print("4. Manage Tables")
+        print("5. View Reports")
+        print("6. Logout")
         choice = input("Please enter your choice: ")
         return choice
 

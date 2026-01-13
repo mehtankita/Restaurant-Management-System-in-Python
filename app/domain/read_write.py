@@ -26,5 +26,5 @@ class Read_Write:
 
     @staticmethod
     def save_menu(menu):
-        with open(Read_Write.menu_file, "w") as f:
+        with open(Path.food, "w") as f:
             json.dump(menu, f, indent=4)        
